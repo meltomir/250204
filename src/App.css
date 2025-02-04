@@ -1,0 +1,31 @@
+/* src/App.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;  /* スクロールバーを非表示 */
+  background-color: #f3e5f5; /* プリンセス風の淡いパープル背景 */
+}
+
+canvas {
+  display: block; /* 余白を消す */
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top: 10%;
+  font-size: 2rem;
+  font-family: 'Georgia', serif; /* 優雅なフォント */
+  color: #b30086; /* プリンセス風のピンクパープル */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
