@@ -4,7 +4,7 @@ import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader";
 
 const ModelViewer = () => {
   useEffect(() => {
-    // シーンの作成
+    // シーンの作成!
     const scene = new THREE.Scene();
 
     // カメラの作成
